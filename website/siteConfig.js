@@ -79,8 +79,9 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/docusaurus.png",
-  twitterImage: "img/docusaurus.png"
+  twitterImage: "img/docusaurus.png",
 
+  docsSideNavCollapsible: true
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
 

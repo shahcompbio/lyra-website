@@ -6,7 +6,11 @@ sidebar_label: Getting Started
 
 Lyra is a web-based visualization dashboard for single-cell phylogeny.
 
-The front-end is written using [React](https://reactjs.org/) and [Redux](https://redux.js.org/), and uses a [GraphQL](https://graphql.org/) and [ElasticSearch](https://www.elastic.co/) backend.
+It currently consists of three layers:
+
+- [React](https://reactjs.org/) and [Redux](https://redux.js.org/) front-end
+- [GraphQL](https://graphql.org/), powered by [Apollo](https://www.apollographql.com/)
+- [ElasticSearch](https://www.elastic.co/) database
 
 ## System Requirements
 

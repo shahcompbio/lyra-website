@@ -14,7 +14,8 @@ sidebar_label: Requirements
 1. [[Stories](us-analyses.md)] Support visualization of results from a number of analyses
 2. [[Stories](us-tree.md)] Tree representation for thousands of cells
 3. [[Stories](us-heatmap.md)] Heatmap (CN, SNV, breakpoint, corrupt tree output) accompanies tree
-4. [] Contained end-to-end product
+4. [[Stories](us-loader.md)] Interface to load data into database
+5. [[Stories](us-deploy.md)] Contained end-to-end product
 
 ## Non-Functional
 

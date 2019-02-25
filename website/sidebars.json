@@ -6,6 +6,7 @@
       "us-tree",
       "us-heatmap",
       "us-backend",
+      "us-loader",
       "us-deploy"
     ],
     "Getting Started": ["getting-started", "running-tests"],

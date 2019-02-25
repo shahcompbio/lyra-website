@@ -9,6 +9,9 @@ For each analysis, a YAML file must be present with the appropriate metadata:
 - analysis_id = unique identifier for analysis
 - jira_id = JIRA ticket identifier associated with analysis
 - description = brief outline of analysis
+- library_ids = list of libraries associated with this analysis
+- sample_ids = list of samples associated with this analysis
+- project = name of project associated with analysis
 - files = file paths for each data file in analysis
 
 ## Sample YAML file
@@ -16,7 +19,16 @@ For each analysis, a YAML file must be present with the appropriate metadata:
 ```yaml
 analysis_id: <ANALYSIS_ID>
 jira_id: <JIRA_ID>
+library_ids:
+  - <LIBRARY_ID_1>
+  - <LIBRARY_ID_2>
+  - <LIBRARY_ID_3>
+sample_ids:
+  - <SAMPLE_ID_1>
+  - <SAMPLE_ID_2>
+  - <SAMPLE_ID_3>
 description: <DESCRIPTION>
+project: <PROJECT>
 files:
   tree: /exact/path/to/rooted_tree.gml
   tree_order: /exact/path/to/tree_order.tsv

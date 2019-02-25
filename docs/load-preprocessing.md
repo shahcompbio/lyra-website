@@ -21,4 +21,4 @@ python tree_cellscape_loader.py -y directory/to/yaml/data_metadata.yaml -pp -m
 
 ## -m
 
-`-m` will remove the branch suffix after the sample ID
+`-m` will remove the branch suffix after the sample ID, like `SA906b` --> `SA906`. This will match it against the cell IDs in the single cell DNA sequencing output.
